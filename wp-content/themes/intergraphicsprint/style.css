@@ -1,0 +1,60 @@
+/*
+Theme Name:		Inter Graphics Print
+Description:	This is a custom child theme for Salient
+Theme URI:		https://intergraphicsprint.com
+Author:			KevinGiu
+Author URI:		https://kevingiu.com
+Template:		salient
+Version:		1.0
+*/
+
+
+
+
+body.nbd-prevent-scroll #header-outer {
+	z-index: 10 !important;
+}
+
+.nbd-xlabel-wrap {
+    width: calc(20% - 10px) !important;
+}
+
+.nbd-option-field.nbd-custom-hide-disabled .nbd-label-wrap .nbo-disabled-wrap {
+    display: none
+}
+
+
+form.cart .quantity .nbo-disabled {
+    display: none !important;
+}
+
+.nbd-sidebar #tab-product-template #tab-template {
+    padding-top: 0 !important;
+    height: calc(100% - 80px) !important;
+}
+
+#header-secondary-outer nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#header-secondary-outer nav:after {
+    display: none !important;
+}
+
+#header-secondary-outer nav .nectar-center-text {
+    position: relative !important;
+    width: auto !important;
+    transform: none !important;
+    left: auto !important;
+	font-size: 14px;
+    line-height: 18px;
+}
+
+#header-secondary-outer nav #social li:first-child a {
+    margin-left: 10px !important;
+}
+#header-secondary-outer nav #social li:last-child a {
+    margin-right: 0 !important;
+}

@@ -1,0 +1,2 @@
+[10-Mar-2024 00:48:36 UTC] PHP Warning:  Undefined array key "nbdesigner_license" in /home/intrgraphicsprnt/public_html/wp-content/plugins/web-to-print-online-designer/includes/class-setup-wizard.php on line 207
+[06-Jun-2025 15:08:53 UTC] PHP Warning:  foreach() argument must be of type array|object, int given in /home/intrgraphicsprnt/public_html/wp-content/plugins/all-in-one-wp-migration/uninstall.php on line 39

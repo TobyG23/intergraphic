@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1125.0000000133593" height="675.0000000080156" viewBox="0 0 851.6666666667 511" xml:space="preserve">
+<desc>Created with Fabric.js 3.4.0 and NBDesigner 2.7</desc>
+<defs>
+</defs>
+<g transform="matrix(1.7885 0 0 1.7885 450.6977416667 254.40135)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 -0.05)"  >
+<linearGradient id="SVGID_41" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="259.0941" y1="228.798" x2="246.3479" y2="83.0178">
+<stop offset="0%" style="stop-color:rgb(228,228,228);stop-opacity: 1"/>
+<stop offset="22.09%" style="stop-color:rgb(238,238,238);stop-opacity: 1"/>
+<stop offset="61.8%" style="stop-color:rgb(251,251,251);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_41); fill-rule: nonzero; opacity: 1;"  transform=" translate(-251.45, -141.55)" d="M 502.9 16.9 v 249.3 c 0 9.4 -7.6 16.9 -17 16.9 h -469 c -9.4 0 -16.9 -7.6 -16.9 -16.9 V 16.9 C 0 7.6 7.6 0 16.9 0 h 469 C 495.4 0 502.9 7.6 502.9 16.9 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 154.5 9.8859902279)"  >
+<linearGradient id="SVGID_42" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="306.2764" y1="151.5457" x2="505.5889" y2="151.5457">
+<stop offset="0%" style="stop-color:rgb(0,242,206);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,116,180);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_42); fill-rule: nonzero; opacity: 1;"  transform=" translate(-405.95, -151.4859902279)" d="M 505.6 23.2 v 220.9 c 0 0 -142.9 54.6 -199.3 28.7 C 306.3 272.9 460.5 225.1 505.6 23.2 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 42.8 54.3)"  >
+<linearGradient id="SVGID_43" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="303.0706" y1="288.8423" x2="292.5268" y2="168.2504">
+<stop offset="0%" style="stop-color:rgb(15,26,46);stop-opacity: 1"/>
+<stop offset="48.57%" style="stop-color:rgb(50,69,110);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_43); fill-rule: nonzero; opacity: 1;"  transform=" translate(-294.25, -195.9)" d="M 65.6 285.3 c 0 0 203.4 13.8 327.7 -50.1 C 517.6 171.3 537.9 61.5 537.9 61.5 l -5.3 268.8 l -482 -16.8 L 65.6 285.3 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -195.0499782323 -32.5031957754)"  >
+<linearGradient id="SVGID_44" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="117.3817" y1="109.0856" x2="-11.0237" y2="109.0856">
+<stop offset="0%" style="stop-color:rgb(0,242,206);stop-opacity: 1"/>
+<stop offset="18.12%" style="stop-color:rgb(0,208,199);stop-opacity: 1"/>
+<stop offset="43.02%" style="stop-color:rgb(0,169,191);stop-opacity: 1"/>
+<stop offset="65.82000000000001%" style="stop-color:rgb(0,140,185);stop-opacity: 1"/>
+<stop offset="85.56%" style="stop-color:rgb(0,122,181);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(0,116,180);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_44); fill-rule: nonzero; opacity: 1;"  transform=" translate(-56.4000217677, -109.0968042245)" d="M -67 -5.1 v 269.7 c 0 0 35 -229.2 246.8 -304.7 C 179.9 -40.1 7.7 -68.4 -67 -5.1 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -47.2 -128.45)"  >
+<linearGradient id="SVGID_45" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="202.5261" y1="-72.5643" x2="136.9128" y2="111.743">
+<stop offset="0%" style="stop-color:rgb(15,26,46);stop-opacity: 1"/>
+<stop offset="48.57%" style="stop-color:rgb(50,69,110);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_45); fill-rule: nonzero; opacity: 1;"  transform=" translate(-204.25, -13.15)" d="M -68.2 -75.6 v 204.8 c 0 0 77.6 -129.8 246.8 -159.6 c 169.2 -29.8 298.1 -21.3 298.1 -21.3 l -75.5 -51.2 H -68.2 V -75.6 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+<g transform="matrix(0.9122171407 0 0 0.9122171407 424.8998869672 277.4699264097)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="https://intergraphicsprint.com/wp-content/uploads/nbdesigner/temp/2024/03/29/1711680206a501bebf.jpg" x="-470" y="-313.5" width="940" height="627"></image>
+</g>
+<g transform="matrix(1 0 0 1 412.6258236624 217.8465833332)" style=""  >
+		<text xml:space="preserve" font-family="Roboto" font-size="25.5499999998" font-style="italic" font-weight="bold" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,189,74); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-130.8252319326" y="8.0262769999" >TARJETAS HERMOSAS</tspan></text>
+</g>
+<g transform="matrix(3.1261955763 0 0 3.1261955763 406.7197066651 114.7855878189)"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"  xlink:href="https://intergraphicsprint.com/wp-content/uploads/nbdesigner/temp/2024/03/29/1711680096abea47ba.png" x="-45" y="-30" width="90" height="60"></image>
+</g>
+</svg>

@@ -1,0 +1,70 @@
+/*Enter Your Custom CSS Here*/
+.tool_draw li a.menuUp {
+    opacity: 1;
+}
+.pc-tab-nav .nbd-tabs {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+
+}
+.pc-tab-nav .nbd-tabs .nbd-tab {
+    padding: 7px 10px;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-bottom: none;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 4px;
+    background: #d2d5dc;
+    border: 1px #404762 solid;
+}
+.pc-tab-nav .nbd-tabs .nbd-tab .title {
+    color: #404762;
+}
+.pc-tab-nav .nbd-tabs .nbd-tab.active .title {
+    color: #fff;
+}
+.pc-tab-nav .nbd-tabs .nbd-tab.active {
+    background: #404762;
+}
+.nbd-sidebar .tabs-content .nbd-search {
+    position: relative !important;
+}
+.nbd-sidebar #tab-svg .cliparts-category, #tab-element .tab-main, #tab-photo .tab-main {
+    margin-top: 0 !important;
+}
+.pc-tab-clipart {
+    padding: 0 10px;
+    margin-bottom: 12px;
+}
+#tab-svg .nbd-tab-contents {
+    height: 100%;
+}
+#tab-svg .nbd-tab-contents .nbd-tab-content {
+    height: 100%;
+}
+.nbd-sidebar #tab-svg .tab-main {
+    height: calc(100% - 161px);
+}
+.nbd-main-bar ul.menu-right input.note {
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline-color: transparent;
+}
+.nbd-templates .main-item .template-note {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    color: #7e7e7e;
+}

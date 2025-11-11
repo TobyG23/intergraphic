@@ -1,0 +1,8 @@
+[15-Apr-2024 17:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/intrgraphicsprnt/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/intrgraphicsprnt/public_html/wp-includes/blocks/index.php on line 8
+[06-Oct-2024 01:06:53 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/intrgraphicsprnt/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/intrgraphicsprnt/public_html/wp-includes/blocks/index.php on line 8

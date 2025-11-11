@@ -1,0 +1,8 @@
+# Archivos y carpetas de backups de WordPress
+wp-content/ai1wm-backups/
+wp-content/wpvividbackups/
+
+# Archivos zip específicos que te dieron error (puedes agregar los nombres exactos)
+back-base1.zip
+back-print.zip
+back-theme.zip
