@@ -1,0 +1,215 @@
+/* ============================================================================
+   COLORS.CSS - Color System and Palette
+   Inter Graphics Print Theme
+   ============================================================================ */
+
+/* ============================================================================
+   PRIMARY BRANDING COLORS
+   ============================================================================ */
+
+.bg-primary {
+	background-color: var(--color-primary);
+}
+
+.bg-primary-dark {
+	background-color: var(--color-primary-dark);
+}
+
+.bg-primary-light {
+	background-color: var(--color-primary-light);
+}
+
+.text-primary {
+	color: var(--color-primary);
+}
+
+.text-primary-dark {
+	color: var(--color-primary-dark);
+}
+
+.text-primary-light {
+	color: var(--color-primary-light);
+}
+
+.border-primary {
+	border-color: var(--color-primary);
+}
+
+/* ============================================================================
+   SECONDARY BRANDING COLORS (Red)
+   ============================================================================ */
+
+.bg-secondary {
+	background-color: var(--color-secondary);
+}
+
+.bg-secondary-dark {
+	background-color: var(--color-secondary-dark);
+}
+
+.bg-secondary-light {
+	background-color: var(--color-secondary-light);
+}
+
+.text-secondary {
+	color: var(--color-secondary);
+}
+
+.text-secondary-dark {
+	color: var(--color-secondary-dark);
+}
+
+.text-secondary-light {
+	color: var(--color-secondary-light);
+}
+
+.border-secondary {
+	border-color: var(--color-secondary);
+}
+
+/* ============================================================================
+   ACCENT COLORS (White)
+   ============================================================================ */
+
+.bg-accent {
+	background-color: var(--color-accent);
+}
+
+.text-accent {
+	color: var(--color-accent);
+}
+
+.border-accent {
+	border-color: var(--color-accent);
+}
+
+/* ============================================================================
+   GRAYSCALE
+   ============================================================================ */
+
+.bg-gray-50 { background-color: var(--color-gray-50); }
+.bg-gray-100 { background-color: var(--color-gray-100); }
+.bg-gray-200 { background-color: var(--color-gray-200); }
+.bg-gray-300 { background-color: var(--color-gray-300); }
+.bg-gray-400 { background-color: var(--color-gray-400); }
+.bg-gray-500 { background-color: var(--color-gray-500); }
+.bg-gray-600 { background-color: var(--color-gray-600); }
+.bg-gray-700 { background-color: var(--color-gray-700); }
+.bg-gray-800 { background-color: var(--color-gray-800); }
+.bg-gray-900 { background-color: var(--color-gray-900); }
+
+.text-gray-50 { color: var(--color-gray-50); }
+.text-gray-100 { color: var(--color-gray-100); }
+.text-gray-200 { color: var(--color-gray-200); }
+.text-gray-300 { color: var(--color-gray-300); }
+.text-gray-400 { color: var(--color-gray-400); }
+.text-gray-500 { color: var(--color-gray-500); }
+.text-gray-600 { color: var(--color-gray-600); }
+.text-gray-700 { color: var(--color-gray-700); }
+.text-gray-800 { color: var(--color-gray-800); }
+.text-gray-900 { color: var(--color-gray-900); }
+
+.border-gray-50 { border-color: var(--color-gray-50); }
+.border-gray-100 { border-color: var(--color-gray-100); }
+.border-gray-200 { border-color: var(--color-gray-200); }
+.border-gray-300 { border-color: var(--color-gray-300); }
+.border-gray-400 { border-color: var(--color-gray-400); }
+.border-gray-500 { border-color: var(--color-gray-500); }
+.border-gray-600 { border-color: var(--color-gray-600); }
+.border-gray-700 { border-color: var(--color-gray-700); }
+.border-gray-800 { border-color: var(--color-gray-800); }
+.border-gray-900 { border-color: var(--color-gray-900); }
+
+/* ============================================================================
+   STATUS COLORS
+   ============================================================================ */
+
+.bg-success { background-color: var(--color-success); }
+.text-success { color: var(--color-success); }
+.border-success { border-color: var(--color-success); }
+
+.bg-warning { background-color: var(--color-warning); }
+.text-warning { color: var(--color-warning); }
+.border-warning { border-color: var(--color-warning); }
+
+.bg-error { background-color: var(--color-error); }
+.text-error { color: var(--color-error); }
+.border-error { border-color: var(--color-error); }
+
+.bg-info { background-color: var(--color-info); }
+.text-info { color: var(--color-info); }
+.border-info { border-color: var(--color-info); }
+
+/* ============================================================================
+   COLOR OVERLAYS
+   ============================================================================ */
+
+.overlay-primary {
+	position: relative;
+}
+
+.overlay-primary::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+
+.overlay-secondary {
+	position: relative;
+}
+
+.overlay-secondary::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(220, 20, 60, 0.5);
+	z-index: 1;
+}
+
+/* ============================================================================
+   GRADIENT BACKGROUNDS
+   ============================================================================ */
+
+.bg-gradient-primary {
+	background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+}
+
+.bg-gradient-secondary {
+	background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-dark) 100%);
+}
+
+.bg-gradient-to-bottom {
+	background: linear-gradient(to bottom, var(--color-primary), var(--color-white));
+}
+
+/* ============================================================================
+   HOVER COLOR EFFECTS
+   ============================================================================ */
+
+.hover-primary:hover {
+	color: var(--color-primary);
+	transition: color var(--transition-base);
+}
+
+.hover-secondary:hover {
+	color: var(--color-secondary);
+	transition: color var(--transition-base);
+}
+
+.hover-bg-primary:hover {
+	background-color: var(--color-primary);
+	transition: background-color var(--transition-base);
+}
+
+.hover-bg-secondary:hover {
+	background-color: var(--color-secondary);
+	transition: background-color var(--transition-base);
+}

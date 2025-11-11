@@ -1,0 +1,283 @@
+/* ============================================================================
+   RESPONSIVE.CSS - Media Queries and Responsive Design
+   Inter Graphics Print Theme
+   ============================================================================ */
+
+/* ============================================================================
+   TABLET (768px and up)
+   ============================================================================ */
+
+@media (min-width: 768px) {
+	.col-md-1 { flex: 0 0 calc(100% / 12 * 1); }
+	.col-md-2 { flex: 0 0 calc(100% / 12 * 2); }
+	.col-md-3 { flex: 0 0 calc(100% / 12 * 3); }
+	.col-md-4 { flex: 0 0 calc(100% / 12 * 4); }
+	.col-md-5 { flex: 0 0 calc(100% / 12 * 5); }
+	.col-md-6 { flex: 0 0 calc(100% / 12 * 6); }
+	.col-md-7 { flex: 0 0 calc(100% / 12 * 7); }
+	.col-md-8 { flex: 0 0 calc(100% / 12 * 8); }
+	.col-md-9 { flex: 0 0 calc(100% / 12 * 9); }
+	.col-md-10 { flex: 0 0 calc(100% / 12 * 10); }
+	.col-md-11 { flex: 0 0 calc(100% / 12 * 11); }
+	.col-md-12 { flex: 0 0 100%; }
+
+	.offset-md-1 { margin-left: calc(100% / 12 * 1); }
+	.offset-md-2 { margin-left: calc(100% / 12 * 2); }
+	.offset-md-3 { margin-left: calc(100% / 12 * 3); }
+	.offset-md-4 { margin-left: calc(100% / 12 * 4); }
+	.offset-md-5 { margin-left: calc(100% / 12 * 5); }
+	.offset-md-6 { margin-left: calc(100% / 12 * 6); }
+
+	.hide-md { display: none; }
+	.show-md { display: block; }
+
+	h1 { font-size: 2.5rem; }
+	h2 { font-size: 2rem; }
+	h3 { font-size: 1.5rem; }
+
+	.container { padding: 0 2rem; }
+
+	.col {
+		padding: 0 1rem;
+	}
+
+	.p-md-0 { padding: 0; }
+	.p-md-xs { padding: var(--spacing-xs); }
+	.p-md-sm { padding: var(--spacing-sm); }
+	.p-md-md { padding: var(--spacing-md); }
+	.p-md-lg { padding: var(--spacing-lg); }
+	.p-md-xl { padding: var(--spacing-xl); }
+
+	.m-md-0 { margin: 0; }
+	.m-md-xs { margin: var(--spacing-xs); }
+	.m-md-sm { margin: var(--spacing-sm); }
+	.m-md-md { margin: var(--spacing-md); }
+	.m-md-lg { margin: var(--spacing-lg); }
+	.m-md-xl { margin: var(--spacing-xl); }
+}
+
+/* ============================================================================
+   DESKTOP (1024px and up)
+   ============================================================================ */
+
+@media (min-width: 1024px) {
+	.col-lg-1 { flex: 0 0 calc(100% / 12 * 1); }
+	.col-lg-2 { flex: 0 0 calc(100% / 12 * 2); }
+	.col-lg-3 { flex: 0 0 calc(100% / 12 * 3); }
+	.col-lg-4 { flex: 0 0 calc(100% / 12 * 4); }
+	.col-lg-5 { flex: 0 0 calc(100% / 12 * 5); }
+	.col-lg-6 { flex: 0 0 calc(100% / 12 * 6); }
+	.col-lg-7 { flex: 0 0 calc(100% / 12 * 7); }
+	.col-lg-8 { flex: 0 0 calc(100% / 12 * 8); }
+	.col-lg-9 { flex: 0 0 calc(100% / 12 * 9); }
+	.col-lg-10 { flex: 0 0 calc(100% / 12 * 10); }
+	.col-lg-11 { flex: 0 0 calc(100% / 12 * 11); }
+	.col-lg-12 { flex: 0 0 100%; }
+
+	.offset-lg-1 { margin-left: calc(100% / 12 * 1); }
+	.offset-lg-2 { margin-left: calc(100% / 12 * 2); }
+	.offset-lg-3 { margin-left: calc(100% / 12 * 3); }
+	.offset-lg-4 { margin-left: calc(100% / 12 * 4); }
+	.offset-lg-5 { margin-left: calc(100% / 12 * 5); }
+	.offset-lg-6 { margin-left: calc(100% / 12 * 6); }
+
+	.hide-lg { display: none; }
+	.show-lg { display: block; }
+
+	.p-lg-0 { padding: 0; }
+	.p-lg-xs { padding: var(--spacing-xs); }
+	.p-lg-sm { padding: var(--spacing-sm); }
+	.p-lg-md { padding: var(--spacing-md); }
+	.p-lg-lg { padding: var(--spacing-lg); }
+	.p-lg-xl { padding: var(--spacing-xl); }
+
+	.m-lg-0 { margin: 0; }
+	.m-lg-xs { margin: var(--spacing-xs); }
+	.m-lg-sm { margin: var(--spacing-sm); }
+	.m-lg-md { margin: var(--spacing-md); }
+	.m-lg-lg { margin: var(--spacing-lg); }
+	.m-lg-xl { margin: var(--spacing-xl); }
+}
+
+/* ============================================================================
+   LARGE DESKTOP (1280px and up)
+   ============================================================================ */
+
+@media (min-width: 1280px) {
+	.col-xl-1 { flex: 0 0 calc(100% / 12 * 1); }
+	.col-xl-2 { flex: 0 0 calc(100% / 12 * 2); }
+	.col-xl-3 { flex: 0 0 calc(100% / 12 * 3); }
+	.col-xl-4 { flex: 0 0 calc(100% / 12 * 4); }
+	.col-xl-5 { flex: 0 0 calc(100% / 12 * 5); }
+	.col-xl-6 { flex: 0 0 calc(100% / 12 * 6); }
+	.col-xl-7 { flex: 0 0 calc(100% / 12 * 7); }
+	.col-xl-8 { flex: 0 0 calc(100% / 12 * 8); }
+	.col-xl-9 { flex: 0 0 calc(100% / 12 * 9); }
+	.col-xl-10 { flex: 0 0 calc(100% / 12 * 10); }
+	.col-xl-11 { flex: 0 0 calc(100% / 12 * 11); }
+	.col-xl-12 { flex: 0 0 100%; }
+
+	.offset-xl-1 { margin-left: calc(100% / 12 * 1); }
+	.offset-xl-2 { margin-left: calc(100% / 12 * 2); }
+	.offset-xl-3 { margin-left: calc(100% / 12 * 3); }
+	.offset-xl-4 { margin-left: calc(100% / 12 * 4); }
+	.offset-xl-5 { margin-left: calc(100% / 12 * 5); }
+	.offset-xl-6 { margin-left: calc(100% / 12 * 6); }
+
+	.hide-xl { display: none; }
+	.show-xl { display: block; }
+}
+
+/* ============================================================================
+   MOBILE-FIRST (up to 767px)
+   ============================================================================ */
+
+@media (max-width: 767px) {
+	h1 {
+		font-size: 1.875rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	.hide-sm { display: none; }
+	.show-sm { display: block; }
+
+	.col {
+		flex: 0 0 100%;
+		padding: 0 var(--spacing-sm);
+	}
+
+	.col-sm-1,
+	.col-sm-2,
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12 {
+		flex: 0 0 100%;
+	}
+
+	button, .button {
+		width: 100%;
+		display: block;
+		margin-bottom: var(--spacing-sm);
+	}
+
+	.container { padding: 0 var(--spacing-sm); }
+
+	.p-sm-0 { padding: 0; }
+	.p-sm-xs { padding: var(--spacing-xs); }
+	.p-sm-sm { padding: var(--spacing-sm); }
+	.p-sm-md { padding: var(--spacing-md); }
+
+	.m-sm-0 { margin: 0; }
+	.m-sm-xs { margin: var(--spacing-xs); }
+	.m-sm-sm { margin: var(--spacing-sm); }
+	.m-sm-md { margin: var(--spacing-md); }
+
+	.mt-sm-0 { margin-top: 0; }
+	.mb-sm-0 { margin-bottom: 0; }
+
+	.text-center-sm { text-align: center; }
+
+	.flex-col-sm {
+		flex-direction: column;
+	}
+
+	.justify-center-sm {
+		justify-content: center;
+	}
+}
+
+/* ============================================================================
+   LANDSCAPE ORIENTATION
+   ============================================================================ */
+
+@media (orientation: landscape) and (max-height: 500px) {
+	.hide-landscape { display: none; }
+}
+
+/* ============================================================================
+   PORTRAIT ORIENTATION
+   ============================================================================ */
+
+@media (orientation: portrait) {
+	.hide-portrait { display: none; }
+}
+
+/* ============================================================================
+   PRINT MEDIA
+   ============================================================================ */
+
+@media print {
+	body {
+		background: white;
+		color: black;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+	button, .button,
+	input[type="button"],
+	input[type="submit"],
+	.hide-print {
+		display: none;
+	}
+
+	.show-print {
+		display: block;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		page-break-after: avoid;
+	}
+
+	p, ul, ol {
+		page-break-inside: avoid;
+	}
+}
+
+/* ============================================================================
+   HIGH CONTRAST MODE
+   ============================================================================ */
+
+@media (prefers-contrast: more) {
+	:root {
+		--color-primary: #000000;
+		--color-secondary: #CC0000;
+	}
+}
+
+/* ============================================================================
+   REDUCED MOTION
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+	}
+}
+
+/* ============================================================================
+   DARK MODE (if needed)
+   ============================================================================ */
+
+@media (prefers-color-scheme: dark) {
+	/* Dark mode styles can be added here if needed */
+	/* Currently using light theme only */
+}
